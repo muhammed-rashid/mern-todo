@@ -1,0 +1,35 @@
+.todo{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -1px 2px 5px -3px rgba(100,95,95,0.75);
+-webkit-box-shadow: -1px 2px 5px -3px rgba(100,95,95,0.75);
+-moz-box-shadow: -1px 2px 5px -3px rgba(100,95,95,0.75);
+padding: 0px 10px;
+
+}
+.actions{
+    display: flex;
+}
+.actions a{
+    background-color: #FF5C58;
+    color: white;
+    margin: 0px 4px;
+    font-size: 12px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.todo-item{
+    font-size: 12px;
+}
